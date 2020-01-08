@@ -1,0 +1,85 @@
+Body {
+    background-image: url("img/achtergrond.jpg");
+}
+.box {
+    background-color: gray; 
+    border: 2px black solid;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 1px;
+    margin-left: 1px;   
+}
+.box:hover, .box:focus {
+   background-color: white;
+   color: gray;
+}
+h1 {
+    text-shadow: 1px 1.5px black;
+    margin-left: 40px;
+}
+li {
+    list-style-type: none;
+}
+#intro {
+    text-align: center;
+}
+/* favourite game section */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 6px;
+  border: 1px black solid;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+  width: 10%;
+  position: ;
+}
+.accordion:hover, .accordion:focus {
+    background-color: lightgray;
+    color: gray;  
+}
+.panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    width: 10%;
+    position: ;
+}
+.acordion .panel {
+    border: 2px black solid;
+}
+.RL {
+    border: 2px black solid;
+    width: 500px;
+    float: left;
+    margin-left: 300px;
+}
+.CSGO {
+    float: right;
+    margin-right: 300px;
+    border: 2px black solid;
+    width: 500px;
+}
+.GameV {
+    width: 500px; 
+    height: 280px; 
+}
+/* voor extra dingen */
+.img{
+    float: right;
+    margin-right: 50px;
+    border: 2px black solid;
+}
+.text_1 {
+    width: 850px;
+}
+.bron {
+    margin-top: 500px;
+}

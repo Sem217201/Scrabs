@@ -1,0 +1,43 @@
+Body {
+    background-image: url("img/achtergrond.jpg");
+}
+.box {
+    background-color: gray; 
+    border: 2px black solid;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+h1 {
+    text-shadow: 1px 1.5px black;
+    margin-left: 40px;
+}
+li {
+    list-style-type: none;
+}
+#intro {
+    text-align: center;
+}
+/* favourite game section */
+.RL {
+    border: 1px solid black;
+    width: 500px;
+    float: left;
+    margin-left: 300px;
+}
+.CSGO {
+    border: 1px solid black;
+    width: 500px;
+    float: right;
+    margin-right: 300px;
+}
+.gName {
+    border-bottom: 2px;
+}
+.GameV {
+    width: 500px; 
+    height: 280px; 
+}
