@@ -1,0 +1,91 @@
+
+#titel {
+  border: 2px black solid;
+  background-image: url(IMG/metal.jpg);
+}
+
+#vid1 {
+  width: 500px;
+  height: 280px;
+  border: 2px black solid;
+  background-image: url(IMG/metal.jpg);
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  float: right;
+  box-shadow: 6px 6px;
+}
+
+#img1 {
+  width: 500px;
+  height: 280px;
+  border: 2px black solid;
+  background-image: url(IMG/metal.jpg);
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  float: left;
+  box-shadow: 6px 6px;
+}
+
+#externpage {
+  background-image: url(IMG/metal.jpg);
+  border: 2px black solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  top: 630px;
+  left: 35px;
+  box-shadow: 6px 6px;
+  float: left;
+
+}
+.accordion {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 30%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  background-image: url(IMG/metal.jpg);
+  border: 2px black solid;
+  font-size: 15px;
+  font-family: Goudy Stout;
+  margin-left: 1000px;
+  margin-top: 40px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  font-family: Goudy Stout;
+  margin-left: 1000px;
+  border: 2px black solid;
+  padding-top: 2px;
+  padding-right: 0.5px;
+  padding-bottom: 2px;
+  padding-left: 0.5px;
+  font-size: 10px;
+}
