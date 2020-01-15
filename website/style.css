@@ -1,0 +1,113 @@
+h1{
+  font-family: impact;
+  size: 8;
+  color: red;
+  background-color: black
+}
+
+h2 {
+  font-family: courier;
+  size: 4;
+  color: orange;
+  width:700px;
+  height: 25px;
+}
+
+p {
+  font-family: times new roman;
+  size: 3;
+  color: black
+  width: 500px;
+  height: 300px;
+}
+
+body {
+  background-color: grey;
+}
+
+img {
+  box-shadow: 3px 3px black;
+}
+
+footer {
+margin-top: 500px;
+}
+
+.comparison {
+  background-color: silver;
+  height: 250px;
+  width: 675px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  border: 3px double red;
+  text-align: center;
+  float: left;
+}
+
+.introduction {
+    background-color: silver;
+    height: 375px;
+    width: 550px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    border: 3px double red;
+    text-align: center;
+    float: right;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: inherit;
+  transition: 0.4s;
+  font-family: courier;
+  size: 3;
+  width: 400px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: darkgray;
+  display: none;
+  overflow: hidden;
+  font-family: times new roman;
+  width: 400px;
+}
+
+/* Makes the title background and color change when moving cursor over it */
+.ja {
+    font-family: impact;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.dom {
+  background-color: silver;
+  width: 400px;
+  margin-left: 37%;
+  text-transform: capitalize;
+  text-decoration: underline;
+  border: 3px double red;
+  text-align: center;
+}
+
+#dlc1 {
+  margin-right: 50px;
+}
+
+#dlc2 {
+  margin-left: 550px;
+}
