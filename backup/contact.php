@@ -1,4 +1,47 @@
 <!DOCTYPE html>
+<?php
+//Step1
+function OpenCon()
+ {$db = mysqli_connect('localhost','root','','bakerij')
+ or die('Error connecting to MySQL server.');
+   $user = "root";
+$password = "";
+$db = "bakerij";
+$host = "localhost";
+$port = 3308;
+$conn = new mysqli($host, $user, $password,$db) or die("Connect failed: %s\n". $conn -> error);
+
+
+ return $conn;
+ }
+
+ function CloseCon($conn)
+ {
+ $conn -> close();
+ }
+
+
+$con = mysqli_connect("localhost","root","","bakerij");
+
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  exit();
+}
+
+// Perform query
+if ($result = mysqli_query($con, "SELECT * FROM Persons")) {
+  echo "Returned rows are: " . mysqli_num_rows($result);
+  // Free result set
+  mysqli_free_result($result);
+}
+
+mysqli_close($con);
+
+
+ $db = mysqli_connect('localhost','root','','bakerij')
+ or die('Error connecting to MySQL server.');
+?>
+
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
@@ -12,6 +55,7 @@
         <div id="header">
             <h1>Het Oerbroodje</h1>
         </div>
+
             <ul id="nav">
           <li><a class="nav-box" href="index.html">Home</a></li>
           <li><a class="nav-box" href="broodjevdd.html">Broodje van de dag</a></li>
@@ -27,11 +71,11 @@
                 <div id="tekst">
                   <p class="Alinea-text">
                     <ul>
-                          <li><?php echo "Telefoon nmr: +31 06-97835163" ?> </li>
-                          <li><?php echo "Mail: OmurVroege@jourrapide.com" ?> </li>
-                          <li><?php echo "Adress: In de Wolken 93 Amstelveen " ?></li>
+                          <li><?php echo "Telefoon nmr: +31 06 0879 634800" ?> </li>
+                          <li><?php echo "Mail: coorperatie_sareon@outlook.com" ?> </li>
+                          <li><?php echo "Adress: Plagiaat 21 9725 SR Bergschedriel" ?></li>
                     </ul>
-                <img id="imgRoom" src="IMG/map.png" alt="Map">
+                <img id="imgRoom" src="IMG/Map" alt="Map">
                 </div>
 <br>
         <div id="footer">
@@ -42,4 +86,3 @@
 </body>
 <script src="script.js"></script>
 </html>
-
